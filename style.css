@@ -1,0 +1,16 @@
+:root {
+  --heading-font: "Young Serif", serif;
+  --primary-font: "Outfit", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
