@@ -5,6 +5,73 @@
 
 body {
   font-family: var(--primary-font);
+  background-color: hsl(30, 54%, 90%);
+}
+
+main {
+  max-width: 650px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 36px;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 28px;
+  color: hsl(14, 45%, 36%);
+}
+
+p {
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  padding-left: 25px;
+  padding-bottom: 16px;
+  margin: 0;
+}
+
+li {
+  padding-left: 10px;
+}
+
+li span {
+  color: hsl(30, 10%, 34%);
+  font-weight: normal;
+}
+
+ul li {
+  line-height: 2;
+}
+
+ol li {
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+hr {
+  color: hsl(30, 18%, 87%);
+  border-style: solid;
 }
 
 footer {
@@ -13,4 +80,36 @@ footer {
 }
 footer a {
   color: hsl(228, 45%, 44%);
+}
+
+.prep-time-container {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px 30px 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.prep-time-container h3 {
+  color: hsl(332, 51%, 32%);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.prep-time-container ul {
+  color: hsl(332, 51%, 32%);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 30px;
+}
+
+.grid p {
+  margin: 5px 0;
+}
+
+.nutritional-value {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
 }
